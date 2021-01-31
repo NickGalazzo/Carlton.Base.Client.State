@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Nicholas Galazzo</Authors>
+    <Product>Project Carlton</Product>
+    <Company>Project Carlton</Company>
+    <Description>Contains the carlton state management framework for web aseembly front ends.</Description>
+    <RepositoryUrl>git@github.com:NickGalazzo/Carlton.Base.Client.State.git</RepositoryUrl>
   </PropertyGroup>
 
 
