@@ -6,16 +6,12 @@
 
 
   <ItemGroup>
+    <PackageReference Include="Carlton.Base.Client.State.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Carlton.Base.Infrastructure" Version="1.0.0" />
     <PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.0" />
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <ProjectReference Include="..\Carlton.Base.Client.State.Abstractions\Carlton.Base.Client.State.Abstractions.csproj" />
-    <ProjectReference Include="..\Carlton.Base.Infrastructure\Carlton.Base.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
