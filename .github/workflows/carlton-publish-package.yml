@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '5.0.101'
-          source-url: https://nuget.pkg.github.com/NickGalazzo@gmail.com/index.json
+          source-url: https://nuget.pkg.github.com/NickGalazzo/index.json
         env:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}   
       - name: Restore
